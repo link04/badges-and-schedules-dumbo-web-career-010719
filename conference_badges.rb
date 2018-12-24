@@ -20,5 +20,5 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-  attendees
+  puts "#{attendees}"
 end
