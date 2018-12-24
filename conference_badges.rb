@@ -22,7 +22,7 @@ end
 def printer(attendees)
     first =  batch_badge_creator(attendees)
     second =  batch_badge_creator(attendees)
-    puts
+    puts "#{first}"
     puts assign_rooms(attendees)
 end
 
