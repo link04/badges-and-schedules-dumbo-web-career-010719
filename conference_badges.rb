@@ -21,11 +21,11 @@ end
 
 def printer(array)
      array.each do |name|
-      index = array.index(name) + 1
-      array2.push("Hello, #{name}! You'll be assigned to room #{index}!")
+       puts batch_badge_creator(array)
+    puts assign_rooms(array)
     end
-    puts batch_badge_creator(attendees)
-    puts assign_rooms(attendees)
+    puts batch_badge_creator(array)
+    puts assign_rooms(array)
 end
 
 
