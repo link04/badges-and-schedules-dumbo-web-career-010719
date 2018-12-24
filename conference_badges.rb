@@ -10,6 +10,6 @@ def batch_badge_creator(array)
   array2
 end
 
-def assign_rooms
-  
+def assign_rooms(array)
+  "Hello, _____! You'll be assigned to room _____!"
 end
