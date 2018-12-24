@@ -12,7 +12,7 @@ end
 
 def assign_rooms(array)
   array2
-  each.
+  each.array do |name|
   "Hello, _____! You'll be assigned to room _____!"
   
 end
