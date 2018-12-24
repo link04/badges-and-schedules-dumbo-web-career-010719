@@ -1,3 +1,4 @@
-def badge_maker 
-  "Hello, my name is #{}"
+def badge_maker
+  
+  "Hello, my name is #{name}"
 end
