@@ -16,4 +16,5 @@ def assign_rooms(array)
     index = array.index(name) + 1
     array2.push("Hello, #{name}! You'll be assigned to room #{index}!")
   end
+  array2
 end
