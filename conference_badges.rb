@@ -20,10 +20,9 @@ def assign_rooms(array)
 end
 
 def printer(attendees)
-    first =  batch_badge_creator(attendees)
-    second =  batch_badge_creator(attendees)
-    puts "#{first}"
-    puts "#{second}"
+    
+    puts batch_badge_creator(attendees)
+    puts assign_rooms(attendees)
 end
 
 
